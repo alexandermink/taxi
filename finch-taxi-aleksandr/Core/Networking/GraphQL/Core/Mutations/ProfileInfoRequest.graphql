@@ -1,0 +1,5 @@
+mutation ProfileInfoRequest($profile: InputUserProfile!) {
+  UserMutation {
+    updateProfile(profile: $profile)
+  }
+}

@@ -1,0 +1,5 @@
+mutation LoginRequest($phone: String!) {
+  UserMutation {
+    sendCode(phone: $phone)
+  }
+}

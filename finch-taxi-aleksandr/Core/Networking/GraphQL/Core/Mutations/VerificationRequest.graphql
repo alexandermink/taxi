@@ -1,0 +1,7 @@
+mutation VerificationRequest($phone: String!, $code: String!) {
+  UserMutation {
+    confirmCode(phone: $phone, code: $code) {
+      token
+    }
+  }
+}
